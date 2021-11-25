@@ -10,7 +10,37 @@ body {
 }
 main {
     margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 #minha_foto {
     border-radius: 20%;
+}
+#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(253, 251, 251);
+    text-align: center;
+}
+#licoes_aprendidas {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    text-align: justify;
+    border-right: solid;
+    padding: 30px;
+}
+#licoes_a_aprender {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    text-align: justify;
+    border-left: solid;
+    padding: 30px;
+}
+div.listas {
+    padding: 10px 25%;
+    text-align: center;
+    vertical-align: bottom;
 }
