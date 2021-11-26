@@ -1,6 +1,15 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+.conteiner{
+    position: relative;
+}
+.ref{
+   height: 115px; 
+   width: 100%;
+   position: absolute;
+   top: -115px;
+}
 #menu  a{
     color: black;
 }
@@ -13,6 +22,7 @@ ul, ol {
     width: 100%;
     background-color: rgb(253, 251, 251);
     text-align: center;
+    z-index: 1;
 }
 #menu li{
     display: inline-block;
@@ -21,7 +31,7 @@ ul, ol {
     margin: auto 3%;
 }
 main {
-    margin: 150px;
+    margin: 150px 10%;
     text-align: center;
     border-left: solid;
     border-right: solid;
@@ -66,15 +76,19 @@ div.listas{
     
 }
 .lado-direito {
-    display: inline-block;
     float: right;
+    width: 43%;
+    margin: 7% 3% 3% 3%;
 }
 .lado-esquerdo {
-    display: inline-block;
     float: left;
-    width: 450px;
+    margin: 3%;
+    width: 43%;
     word-break: break-word;
 }
 #tabela {
-    padding: 50px 10%;
+    height: 200px;
+}
+th {
+    border-right: solid;
 }
