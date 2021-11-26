@@ -29,15 +29,24 @@ ul, ol {
     list-style: none;
     text-align: center;
     margin: auto 3%;
+    font-family: monospace, serif, sans-serif;
+}
+nav a:hover{
+    background-color: rgba(10, 112, 1, 0.411);
+    padding: 15px;
+    transition: background .4s;
 }
 main {
     margin: 150px 10%;
     text-align: center;
     border-left: solid;
     border-right: solid;
+    font-family: serif, sans-serif;
 }
 p {
     margin: 0 10%;
+    font-size: 17px;
+    line-height: 1.5;
 }
 #minha_foto {
     border-radius: 20%;
@@ -87,7 +96,7 @@ div.listas{
     word-break: break-word;
 }
 #tabela {
-    height: 200px;
+    height: 280px;
 }
 th {
     border-right: solid;
