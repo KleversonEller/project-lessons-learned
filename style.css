@@ -98,9 +98,7 @@ div.listas{
 #tabela {
     height: 280px;
 }
-th {
-    border-right: solid;
-}
+
 table {
     clear: both;
     margin: 0 20%;
