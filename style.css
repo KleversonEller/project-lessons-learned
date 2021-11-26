@@ -66,3 +66,16 @@ div.listas{
     
     
 }
+.lado-direito {
+    display: inline-block;
+    float: right;
+}
+.lado-esquerdo {
+    display: inline-block;
+    float: left;
+    width: 450px;
+    word-break: break-word;
+}
+#tabela {
+    padding: 50px 10%;
+}
