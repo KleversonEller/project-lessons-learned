@@ -87,7 +87,7 @@ div.listas{
 .lado-direito {
     float: right;
     width: 43%;
-    margin: 7% 3% 3% 3%;
+    margin: 12% 3% 3% 3%;
 }
 .lado-esquerdo {
     float: left;
@@ -100,4 +100,8 @@ div.listas{
 }
 th {
     border-right: solid;
+}
+table {
+    clear: both;
+    margin: 0 20%;
 }
