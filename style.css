@@ -33,7 +33,7 @@ ul, ol {
 }
 nav a:hover{
     background-color: rgba(10, 112, 1, 0.411);
-    padding: 15px;
+    padding: 1%;
     transition: background .4s;
 }
 main {
